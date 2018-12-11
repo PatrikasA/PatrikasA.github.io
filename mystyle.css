@@ -1,0 +1,68 @@
+table, td{
+
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: middle;
+    width: 150pt;
+    margin: auto;
+}
+
+.pirmaeil{
+
+    height: 50pt;
+
+}
+
+.antraste{
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color: rgb(247, 247, 207);
+    color: rgb(14, 27, 27);
+    font-size: 60px;
+
+}
+
+.antraeil{
+
+    height: 50pt;
+    width: 150pt;
+    background-color: rgb(48, 47, 47);
+    color: white;
+
+}
+
+body{
+    background-color: rgb(250, 238, 223);
+}
+
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#vardas{
+
+    color: rgba(3, 37, 39, 0.863);
+    text-align: right;
+}
+
+h2{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tekstas{
+
+    font-size: 15pt;
+    text-align: center;
+
+}
