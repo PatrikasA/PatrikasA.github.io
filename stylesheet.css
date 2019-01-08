@@ -1,0 +1,55 @@
+
+.sonai{
+    height:130%;
+    width: 20%;
+    background-color: black;
+    float: right;
+    margin: 0%;
+    padding: 0%;
+}
+.centras{
+    height: 130%;
+    width: 60%;
+    background-color: aliceblue;
+    float: right;
+    margin: 0%;
+}
+.receptas{
+    width: 60%;
+    height: 13%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    background-color: blue;
+}
+.rimg{
+    height: 80%;
+    width: 20%;
+    background-color: black;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    -top:2%
+}
+
+.bs{
+    background-color: grey;
+    height: 25%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    margin-left: 7%;
+    margin-right: 4%;
+}
+
+.zimgz{
+    height: 80%;
+    background-color: black;
+    width: 20%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+div{
+    border: 0%;
+}
