@@ -1,0 +1,18 @@
+.antraste
+{
+    text-align: center;
+    font-size: 30pt;
+    color: rgb(5, 10, 14);
+}
+
+.pastraipa
+{
+    text-align: center;
+    font-size: 15pt;
+
+}
+
+button{
+    margin:auto;
+    display:block;
+  }
