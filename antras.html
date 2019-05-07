@@ -1,0 +1,56 @@
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+</head>
+
+<body>
+
+    <h1 class="antraste"> Matematikos uždaviniai </h1>
+
+<p class="pastraipa">2*6= <input id="v1"> </p>
+
+<p class="pastraipa">7+14= <input id="v2"> </p>
+
+<p class="pastraipa">19-11= <input id="v3"> </p>
+
+<p class="pastraipa">54:9= <input id="v4"> </p>
+
+<p class="pastraipa">14^2= <input id="v5"> </p>
+
+
+<button onclick=tikrink()>Tikrinti</button>
+
+
+<script>
+
+function tikrink()
+{
+    var q=document.getElementById("v1").value;
+    var w=document.getElementById("v2").value;
+    var e=document.getElementById("v3").value;
+    var r=document.getElementById("v4").value;
+    var t=document.getElementById("v5").value;
+
+   if(q=12)
+   document.getElementById("v1").innerHTML+="Teisingai";
+   else document.getElementById("v1").innerHTML+="Neteisingai";
+}
+
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
