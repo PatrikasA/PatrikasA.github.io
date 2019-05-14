@@ -1,23 +1,23 @@
 <html>
-<head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <meta charset="utf-8">
-</head>
+    <head>
+         <link rel="stylesheet" type="text/css" href="style.css">
+         <meta charset="utf-8">
+    </head>
 
 <body>
     
 
     <h1 class="antraste"> Matematikos uždaviniai </h1>
 
-<p class="pastraipa">2*6= <input id="v1"> </p>
+<p class="pastraipa">2*6= <input id="v1">    <p class="pastraipa" id="1"></p> </p>
 
-<p class="pastraipa">7+14= <input id="v2"> </p>
+<p class="pastraipa">7+14= <input id="v2">   <p class="pastraipa" id="2"></p> </p>
 
-<p class="pastraipa">19-11= <input id="v3"> </p>
+<p class="pastraipa">19-11= <input id="v3">  <p class="pastraipa" id="3"></p> </p>
 
-<p class="pastraipa">54:9= <input id="v4"> </p>
+<p class="pastraipa">54:9= <input id="v4">   <p class="pastraipa" id="4"></p> </p>
 
-<p class="pastraipa">14^2= <input id="v5"> </p>
+<p class="pastraipa">14*14= <input id="v5">  <p class="pastraipa" id="5"></p> </p>
 
 
 <button onclick=tikrink()>Tikrinti</button>
@@ -32,22 +32,57 @@ function tikrink()
     var e=document.getElementById("v3").value;
     var r=document.getElementById("v4").value;
     var t=document.getElementById("v5").value;
-   if(q==12 && w==21 && e==8 && r==6 && t==196)
-   alert ("Teisingai");
-   else alert ("Neteisingai");
-   
+   if(q==12)
+   {
+   document.getElementById("1").innerHTML = "Teisingai";
+   document.getElementById("1").style.color = "green";
+   }
+   else 
+   {
+    document.getElementById("1").innerHTML = "Neteisingai";
+    document.getElementById("1").style.color = "red";
+   }
+   if(w==21)
+   {
+   document.getElementById("2").innerHTML = "Teisingai";
+   document.getElementById("2").style.color = "green";
+   }
+   else 
+   {
+    document.getElementById("2").innerHTML = "Neteisingai";
+    document.getElementById("2").style.color = "red";
+   }
+   if(e==8)
+   {
+   document.getElementById("3").innerHTML = "Teisingai";
+   document.getElementById("3").style.color = "green";
+   }
+   else 
+   {
+    document.getElementById("3").innerHTML = "Neteisingai";
+    document.getElementById("3").style.color = "red";
+   }
+   if(r==6)
+   {
+   document.getElementById("4").innerHTML = "Teisingai";
+   document.getElementById("4").style.color = "green";
+   }
+   else 
+   {
+    document.getElementById("4").innerHTML = "Neteisingai";
+    document.getElementById("4").style.color = "red";
+   }
+   if(t==196)
+   {
+   document.getElementById("5").innerHTML = "Teisingai";
+   document.getElementById("5").style.color = "green";
+   }
+   else 
+   {
+    document.getElementById("5").innerHTML = "Neteisingai";
+    document.getElementById("5").style.color = "red";
+   }
 }
-</script>
-
-
-
-
-
-
-</body>
-
-
-
-
-
+        </script>
+    </body>
 </html>
